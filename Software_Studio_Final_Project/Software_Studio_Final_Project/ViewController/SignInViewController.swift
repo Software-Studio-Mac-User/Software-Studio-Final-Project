@@ -1,5 +1,9 @@
 import UIKit
 
+protocol SignInDelegate {
+    func logout()
+}
+
 class SignInViewController: UIViewController {
     
     
@@ -30,14 +34,22 @@ class SignInViewController: UIViewController {
         // let loginSuccess: Bool = userModel.findUser(name: username, pwd: password)
         let loginSuccess: Bool = findUser(name: username, password: password)
         if loginSuccess {
-            
+            /// 210616. 앱에 로그인 유저 정보 추가
+            UserModel.setCurrentUser(name: username, pwd: password)
             // 01. UIAlertController의 인스턴스를 만든다.
             let alertController = UIAlertController(title: "로그인 성공", message: "로그인 성공하였습니다 ☺️", preferredStyle: .alert) // .actionSheet
             
             // 02. UIAlertController에 추가할 Action인 UIAlertAction을 만든다.
             let okAction = UIAlertAction(title: "OK", style: .default, handler: { (input: UIAlertAction) -> Void in
-                let main = MainViewController()
-                self.present(main, animated: true, completion: nil)
+//                let main = MainViewController()
+//                self.present(main, animated: true, completion: nil)
+                
+                // 210615. MainViewController 스토리보드로 변경 - 메인 화면 present
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let vc = sb.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+                vc.signInDelegate = self
+                self.present(vc, animated: true, completion: nil)
+                
             })
             let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
             
@@ -90,6 +102,20 @@ class SignInViewController: UIViewController {
     
     
 }
+extension SignInViewController: SignInDelegate {
+    func logout() {
+        UserModel.logout()
+        self.usernameTextField.text = ""
+        self.passwordTextField.text = ""
+        if let appDelegate = UIApplication.shared.delegate {
+            if let window = appDelegate.window {
+                if let root = window?.rootViewController {
+                    root.dismiss(animated: false, completion: nil)
+                }
+            }
+        }
+    }
+}
 
 //    /*****Segue, 할일을 하기 직전에 클로저를 담아서 보내줘 : prepare*****/
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -104,4 +130,5 @@ class SignInViewController: UIViewController {
 //        }
 //    }
 //}
+
 

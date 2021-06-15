@@ -25,7 +25,21 @@ final class UserModel {
         let newUser = User(username: name, password: pwd)
         model.append(newUser)
     }
-
+    
+    // 210615. 로그인 유저 정보 추가
+    static var loginUser: User?
+    
+    static func setCurrentUser(name: String, pwd: String) {
+        loginUser = User(username: name, password: pwd)
+    }
+    
+    static func getCurrentUser() -> User? {
+        return loginUser
+    }
+    
+    static func logout() {
+        loginUser = nil
+    }
 }
 
 
