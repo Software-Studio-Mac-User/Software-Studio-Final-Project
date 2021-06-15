@@ -32,6 +32,26 @@ class TradingTableViewController: UIViewController {
         }
     }
     
+    @IBAction func onHomeBtnClicked(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    // Chat 버튼 액션
+    @IBAction func onChatBtnClicked(_ sender: Any) {
+        
+    }
+    
+    // MyPage 버튼 액션
+    @IBAction func onMyPageBtnClicked(_ sender: Any) {
+        
+    }
+    
+    // 상품 버튼 액션
+    @IBAction func onProductBtnClicked(_ sender: Any) {
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
