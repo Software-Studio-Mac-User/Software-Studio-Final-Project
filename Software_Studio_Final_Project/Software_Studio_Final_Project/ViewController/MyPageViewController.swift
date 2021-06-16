@@ -36,6 +36,7 @@ class MyPageViewController: UIViewController {
     @IBAction func onProfileModifyBtnClicked(_ sender: Any) {
         
         if self.checkData() {
+            
             // TODO: 프로필 수정 DB 적용
             self.showModifyProfileAlert()
         }
@@ -207,11 +208,13 @@ class MyPageViewController: UIViewController {
             imagePicker.delegate = self
             imagePicker.sourceType = .photoLibrary
             imagePicker.mediaTypes = [kUTTypeImage as String]
-            imagePicker.allowsEditing = true
+            
             
             present(imagePicker, animated: true, completion: nil)
         }
     }
+    
+    
 }
 
 extension MyPageViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
