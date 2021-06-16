@@ -374,11 +374,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-1" id="KGR-tK-FzP">
-                    <rect key="frame" x="0.0" y="0.0" width="256.66666666666669" height="278"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <viewLayoutGuide key="safeArea" id="zIl-dL-0Ae"/>
-                </stackView>
             </objects>
             <point key="canvasLocation" x="69.565217391304358" y="185.86956521739131"/>
         </scene>
@@ -842,7 +837,7 @@
                                                     <action selector="onProfileModifyBtnClicked:" destination="8hP-aF-6PO" eventType="touchUpInside" id="6hF-AG-Rng"/>
                                                 </connections>
                                             </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="회원 이름" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-Da-O60">
+                                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="회원 이름" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-Da-O60">
                                                 <rect key="frame" x="20" y="382" width="388" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
