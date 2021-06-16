@@ -39,7 +39,7 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     @IBAction func onProductBtnClicked(_ sender: Any) {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let tv = sb.instantiateViewController(withIdentifier: "TradingTableViewController") as! TradingTableViewController
+        let tv = sb.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
         self.present(tv, animated: true, completion: nil)
         
     }
