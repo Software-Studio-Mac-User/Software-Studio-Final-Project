@@ -842,6 +842,9 @@
                                         <state key="normal" title="완료">
                                             <color key="titleColor" systemColor="systemOrangeColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCompleteBtnClicked:" destination="AnK-pY-gfY" eventType="touchUpInside" id="cC3-rt-mSp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

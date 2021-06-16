@@ -72,12 +72,12 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     
     // 상품 버튼 액션
     @IBAction func onProductBtnClicked(_ sender: Any) {
-        
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
-        vc.signInDelegate = self.signInDelegate
-        self.present(vc, animated: true, completion: nil)
-        
+//
+//        let sb = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = sb.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
+//        vc.signInDelegate = self.signInDelegate
+//        self.present(vc, animated: true, completion: nil)
+//        
     }
     
     
