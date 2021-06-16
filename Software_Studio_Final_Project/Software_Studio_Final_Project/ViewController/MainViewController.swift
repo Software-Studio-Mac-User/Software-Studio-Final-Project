@@ -22,6 +22,9 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     
     // Chat 버튼 액션
     @IBAction func onChatBtnClicked(_ sender: Any) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let ch = sb.instantiateViewController(withIdentifier: "ChattingViewController") as! ChattingViewController
+        self.present(ch, animated: true, completion: nil)
         
     }
     

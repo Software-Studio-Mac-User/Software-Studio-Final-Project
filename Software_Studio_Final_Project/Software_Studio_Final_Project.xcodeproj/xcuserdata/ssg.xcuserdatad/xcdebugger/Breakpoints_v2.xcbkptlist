@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0AAC1070-624B-462E-9704-4DA04BDAFF0D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE04E696-693C-43F7-AAC0-ECACEF3A4AF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ChattingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EE04E696-693C-43F7-AAC0-ECACEF3A4AF9 - 12dc9d8611e25470"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.chatname.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "EE04E696-693C-43F7-AAC0-ECACEF3A4AF9 - 12e5c0f3783d656d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Software_Studio_Final_Project.ChattingViewController"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "EE04E696-693C-43F7-AAC0-ECACEF3A4AF9 - ece882554bd57f28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Software_Studio_Final_Project.ChattingViewController&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "289C86BC-BBEC-4673-869E-8C415B9E738B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ChattingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "289C86BC-BBEC-4673-869E-8C415B9E738B - b3383ad3be943e0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Software_Studio_Final_Project.ChattingViewController"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "289C86BC-BBEC-4673-869E-8C415B9E738B - 12e5c0f3783d656d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Software_Studio_Final_Project.ChattingViewController"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "289C86BC-BBEC-4673-869E-8C415B9E738B - 3dabb4846334f1c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Software_Studio_Final_Project.ChattingViewController&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "289C86BC-BBEC-4673-869E-8C415B9E738B - ece882554bd57f28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Software_Studio_Final_Project.ChattingViewController&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "289C86BC-BBEC-4673-869E-8C415B9E738B - 95513671ab51f15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.__deallocating_deinit"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ChattingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5 - afdf8e522108a7a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5 - 8127deb7c40ca56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5 - 257ff2149e32d5dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5 - 15f231b351ff7a50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5 - 12e5c0f3783d6513"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Software_Studio_Final_Project.ChattingViewController"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "488B6318-306C-4FCA-9DB9-6C97D59432A5 - ece882554bd57f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Software_Studio_Final_Project.ChattingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Software_Studio_Final_Project.ChattingViewController&gt;"
+                  moduleName = "Software_Studio_Final_Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ssg/Documents/GitHub/Software-Studio-Final-Project/Software_Studio_Final_Project/Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C7C2DDF-86BA-4C91-976A-BF95797FB3FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Software_Studio_Final_Project/ViewController/ChattingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
