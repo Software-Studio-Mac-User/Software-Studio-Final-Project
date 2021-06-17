@@ -17,6 +17,7 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     
     let itemName:[String] = ["패스트트랙3 판매", "전신 거울 무료 나눔", "캣 타워 판매합니다."]
     let itemPrice:[String] = ["30,000원", "0원", "530,000원"]
+    let itemTime:[String] = ["방금 전", "1시간 전", "3일 전"]
     let imageName:[String] = ["item1", "item2", "item3"]
     
     override func viewDidLoad() {
@@ -40,6 +41,7 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         
         cell.itemTitle.text = itemName[indexPath.row]
         cell.itemPrice.text = itemPrice[indexPath.row]
+        cell.itemTime.text = itemTime[indexPath.row]
         cell.itemImageView.image = UIImage(named: imageName[indexPath.row])
         
         return cell
