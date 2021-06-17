@@ -59,7 +59,10 @@ class MyPageViewController: UIViewController {
     
     // 상품 버튼 액션
     @IBAction func onProductBtnClicked(_ sender: Any) {
-        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
+        vc.signInDelegate = self.signInDelegate
+        self.present(vc, animated: true, completion: nil)
     }
     
     // 갤러리 버튼 액션

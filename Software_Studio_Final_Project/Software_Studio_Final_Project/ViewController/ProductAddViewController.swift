@@ -20,7 +20,7 @@ class ProductAddViewController: UIViewController {
         picker.delegate = self
         // Do any additional setup after loading the view.
     }
-    
+    //제품 사진 등록 버튼 액션
     @IBAction func AddAction(_ sender: Any) {
         let alert = UIAlertController(title: "판매제품 사진 등록", message: "", preferredStyle: .actionSheet)
         
@@ -89,6 +89,7 @@ class ProductAddViewController: UIViewController {
 
 }
 
+//제품 사진 등록 버튼 관련 imagePicker 함수
 extension ProductAddViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func openLibrary() {
         picker.sourceType = .photoLibrary
@@ -96,7 +97,19 @@ extension ProductAddViewController: UIImagePickerControllerDelegate, UINavigatio
     }
     
     func openCamera() {
-        picker.sourceType = .camera
-        present(picker, animated: false, completion: nil)
+        if(UIImagePickerController .isSourceTypeAvailable(.camera)) {
+            picker.sourceType = .camera
+            present(picker, animated: false, completion: nil)
+        }else {
+            print("Camera not available")
+        }
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info:[String:Any]) {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            AddImageView.image = image
+            print(info)
+        }
+        dismiss(animated: true, completion: nil)
     }
 }
