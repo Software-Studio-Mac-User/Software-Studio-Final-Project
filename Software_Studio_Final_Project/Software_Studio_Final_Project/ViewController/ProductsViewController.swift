@@ -47,6 +47,46 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         return cell
     }
     
+    // cell -> DetailView
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ShowDetail", sender: itemName[indexPath.row])
+        performSegue(withIdentifier: "ShowDetail2", sender: itemPrice[indexPath.row])
+        performSegue(withIdentifier: "ShowDetail3", sender: itemTime[indexPath.row])
+        performSegue(withIdentifier: "ShowDetail4", sender: UIImage(named: imageName[indexPath.row]))
+    }
+    
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail" {
+            let vc = segue.destination as? ProductDetailViewController
+            if let first_index = sender as? String {
+                vc?.numOfpage = first_index
+            }
+        }
+        else if segue.identifier == "ShowDetail2" {
+            let vc = segue.destination as? ProductDetailViewController
+            if let second_index = sender as? String {
+                vc?.numOfpage2 = second_index
+            }
+        }
+        else if segue.identifier == "ShowDetail3" {
+            let vc = segue.destination as? ProductDetailViewController
+            if let third_index = sender as? String {
+                vc?.numOfpage3 = third_index
+            }
+        }
+        else if segue.identifier == "ShowDetail4" {
+            let vc = segue.destination as? ProductDetailViewController
+            if let four_index = sender as? UIImageView {
+                vc?.numOfpage4 = four_index
+            }
+        }
+    }
+    
+    
+    
     @IBOutlet weak var homeBtn: UIButton!
     
     // Home 버튼 액션

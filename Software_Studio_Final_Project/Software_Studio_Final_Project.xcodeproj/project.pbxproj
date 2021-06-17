@@ -13,6 +13,7 @@
 		758F2664267A3A710084CBA9 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F2663267A3A710084CBA9 /* ItemTableViewCell.swift */; };
 		758F2666267A3C1B0084CBA9 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F2665267A3C1B0084CBA9 /* ProductsViewController.swift */; };
 		75BBEFBC267A52DA0069DE8B /* ProductAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BBEFBB267A52DA0069DE8B /* ProductAddViewController.swift */; };
+		8BA7E01C267BAE080090982A /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7E01B267BAE080090982A /* ProductDetailViewController.swift */; };
 		DD34734B1F7B7C48008B335D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34734A1F7B7C48008B335D /* MainViewController.swift */; };
 		DD66AE911F7B360200B55A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66AE901F7B360200B55A2E /* AppDelegate.swift */; };
 		DD66AE961F7B360200B55A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66AE941F7B360200B55A2E /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		758F2665267A3C1B0084CBA9 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		75BBEFBB267A52DA0069DE8B /* ProductAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddViewController.swift; sourceTree = "<group>"; };
 		8B9980B626712FDA009D5BB2 /* Software_Studio_Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Software_Studio_Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7E01B267BAE080090982A /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		DD34734A1F7B7C48008B335D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DD66AE901F7B360200B55A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD66AE951F7B360200B55A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				758F2663267A3A710084CBA9 /* ItemTableViewCell.swift */,
 				758F2665267A3C1B0084CBA9 /* ProductsViewController.swift */,
 				75BBEFBB267A52DA0069DE8B /* ProductAddViewController.swift */,
+				8BA7E01B267BAE080090982A /* ProductDetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				DD66AEA31F7B3AFB00B55A2E /* RoundButton.swift in Sources */,
 				758F2664267A3A710084CBA9 /* ItemTableViewCell.swift in Sources */,
 				DD66AE911F7B360200B55A2E /* AppDelegate.swift in Sources */,
+				8BA7E01C267BAE080090982A /* ProductDetailViewController.swift in Sources */,
 				758F2666267A3C1B0084CBA9 /* ProductsViewController.swift in Sources */,
 				75BBEFBC267A52DA0069DE8B /* ProductAddViewController.swift in Sources */,
 				1B03D7A326794662000BFF85 /* SettingViewController.swift in Sources */,

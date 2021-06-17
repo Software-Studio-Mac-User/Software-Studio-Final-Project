@@ -803,11 +803,64 @@
                     <connections>
                         <outlet property="homeBtn" destination="Uxq-Q0-Ohk" id="FKn-V5-TY5"/>
                         <outlet property="tradingTableView" destination="oI9-S0-Jt1" id="8n5-LF-uKo"/>
+                        <segue destination="J3W-62-Bh6" kind="show" identifier="ShowDetail" id="f5M-7I-3vd"/>
+                        <segue destination="J3W-62-Bh6" kind="show" identifier="ShowDetail2" id="9e7-jq-A9s"/>
+                        <segue destination="J3W-62-Bh6" kind="show" identifier="ShowDetail3" id="03A-wH-FYJ"/>
+                        <segue destination="J3W-62-Bh6" kind="show" identifier="ShowDetail4" id="Z6n-J8-haF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iGG-oW-oBM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2502" y="187"/>
+        </scene>
+        <!--Product Detail View Controller-->
+        <scene sceneID="hze-SU-Joz">
+            <objects>
+                <viewController id="J3W-62-Bh6" customClass="ProductDetailViewController" customModule="Software_Studio_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ESx-fT-Aue">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Good" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8f-vF-oGL">
+                                <rect key="frame" x="20" y="387" width="388" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eU5-UQ-dTP">
+                                <rect key="frame" x="20" y="517" width="233" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txb-md-4Qn">
+                                <rect key="frame" x="20" y="626" width="281" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dei-35-poL">
+                                <rect key="frame" x="94" y="97" width="240" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hji-Jj-kup"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hlF-7s-esb"/>
+                    <connections>
+                        <outlet property="showImage" destination="Dei-35-poL" id="HwG-94-n8e"/>
+                        <outlet property="showLabel" destination="j8f-vF-oGL" id="YIw-HB-Nc4"/>
+                        <outlet property="showLabel2" destination="eU5-UQ-dTP" id="PZV-va-Iih"/>
+                        <outlet property="showLabel3" destination="Txb-md-4Qn" id="0Cs-RM-zM6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RUH-Tb-uXu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2501" y="1113"/>
         </scene>
         <!--Product Add View Controller Scene-->
         <scene sceneID="fbl-Pd-eGA">
@@ -1617,6 +1670,9 @@
             <size key="intrinsicContentSize" width="62" height="33"/>
         </designable>
     </designables>
+    <inferredMetricsTieBreakers>
+        <segue reference="Z6n-J8-haF"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Back" width="48" height="48"/>
         <image name="Background-1" width="316" height="591"/>
