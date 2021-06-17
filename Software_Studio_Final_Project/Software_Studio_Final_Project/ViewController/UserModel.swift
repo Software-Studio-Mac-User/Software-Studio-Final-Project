@@ -7,9 +7,10 @@ final class UserModel {
     }
     
     var model: [User] = [
-       User(username: "zico", password: "1234"),
-       User(username: "dean", password: "5678"),
-       User(username: "penomeco", password: "0101")
+       User(username: "minsu", password: "1234"),
+       User(username: "yangga", password: "5678"),
+       User(username: "ssg", password: "0101"),
+        User(username: "sanguk", password: "1010")
     ]
     
     func findUser(name: String, pwd: String) -> Bool {
@@ -26,7 +27,7 @@ final class UserModel {
         model.append(newUser)
     }
     
-    // 210615. 로그인 유저 정보 추가
+    // 로그인 유저 정보 추가
     static var loginUser: User?
     
     static func setCurrentUser(name: String, pwd: String) {

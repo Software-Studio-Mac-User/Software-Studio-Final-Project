@@ -75,6 +75,11 @@ class ProductAddViewController: UIViewController {
         
     }
     
+    // 완료 버튼 액션
+    @IBAction func onCompleteBtnClicked(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     // 닫기 버튼 액션
     @IBAction func onCloseBtnClicked(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
