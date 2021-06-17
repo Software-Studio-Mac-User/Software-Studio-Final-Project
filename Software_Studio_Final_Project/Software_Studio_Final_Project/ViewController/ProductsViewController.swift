@@ -7,7 +7,6 @@
 //
 
 import UIKit
-//import XLPagerTabStrip
 
 class ProductsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -15,10 +14,10 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     let cellIdentifier: String = "cell"
     let customCellIdentifier: String = "ItemCell"
     
-    let itemName:[String] = ["패스트트랙3 판매", "전신 거울 무료 나눔", "캣 타워 판매합니다."]
-    let itemPrice:[String] = ["30,000원", "0원", "530,000원"]
-    let itemTime:[String] = ["방금 전", "1시간 전", "3일 전"]
-    let imageName:[String] = ["item1", "item2", "item3"]
+    var itemName:[String] = ["패스트트랙3 판매", "전신 거울 무료 나눔", "캣 타워 판매합니다."]
+    var itemPrice:[String] = ["30,000원", "0원", "530,000원"]
+    var itemTime:[String] = ["방금 전", "1시간 전", "3일 전"]
+    var imageName:[String] = ["item1", "item2", "item3"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +42,7 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         cell.itemPrice.text = itemPrice[indexPath.row]
         cell.itemTime.text = itemTime[indexPath.row]
         cell.itemImageView.image = UIImage(named: imageName[indexPath.row])
-        
+
         return cell
     }
     
@@ -74,17 +73,17 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     
     // 상품 버튼 액션
     @IBAction func onProductBtnClicked(_ sender: Any) {
-//
-//        let sb = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = sb.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
-//        vc.signInDelegate = self.signInDelegate
-//        self.present(vc, animated: true, completion: nil)
-//        
+
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
+        vc.signInDelegate = self.signInDelegate
+        self.present(vc, animated: true, completion: nil)
+
     }
     
     
-    @IBAction func onProductAddBtnClicked(_ sender: Any) {
-        
+     @IBAction func onProductAddBtnClicked(_ sender: Any) {
+
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "ProductAddViewController") as! ProductAddViewController
         vc.signInDelegate = self.signInDelegate
@@ -94,5 +93,4 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     var signInDelegate: SignInDelegate?
    
 }
-
 
