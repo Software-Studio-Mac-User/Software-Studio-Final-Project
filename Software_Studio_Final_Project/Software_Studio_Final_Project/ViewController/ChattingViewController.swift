@@ -9,6 +9,7 @@
 import UIKit
 
 class ChattingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
     let chatname: [String] = ["유재석", "박명수", "정준하", "노홍철", "정형돈", "하하", "길", "황광희"]
         
     @IBOutlet weak var tableView: UITableView!
