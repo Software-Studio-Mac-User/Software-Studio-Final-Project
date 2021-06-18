@@ -98,7 +98,9 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     
     // Chat 버튼 액션
     @IBAction func onChatBtnClicked(_ sender: Any) {
-        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "ChattingViewController") as! ChattingViewController
+        self.present(vc, animated: true, completion: nil)
     }
     
     // MyPage 버튼 액션

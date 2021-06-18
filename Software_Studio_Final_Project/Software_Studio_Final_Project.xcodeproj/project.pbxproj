@@ -10,6 +10,9 @@
 		1B03D7A326794662000BFF85 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03D7A226794662000BFF85 /* SettingViewController.swift */; };
 		1B03D7A526794828000BFF85 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03D7A426794828000BFF85 /* MyPageViewController.swift */; };
 		1B03D7A9267948BA000BFF85 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03D7A8267948BA000BFF85 /* UIView+Extension.swift */; };
+		48788172267C5A7000854794 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48788171267C5A7000854794 /* ChattingViewController.swift */; };
+		48788175267C5AB300854794 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48788173267C5AB300854794 /* DemoTableViewCell.swift */; };
+		48788176267C5AB300854794 /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48788174267C5AB300854794 /* DemoTableViewCell.xib */; };
 		758F2664267A3A710084CBA9 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F2663267A3A710084CBA9 /* ItemTableViewCell.swift */; };
 		758F2666267A3C1B0084CBA9 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F2665267A3C1B0084CBA9 /* ProductsViewController.swift */; };
 		75BBEFBC267A52DA0069DE8B /* ProductAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BBEFBB267A52DA0069DE8B /* ProductAddViewController.swift */; };
@@ -29,6 +32,9 @@
 		1B03D7A226794662000BFF85 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		1B03D7A426794828000BFF85 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		1B03D7A8267948BA000BFF85 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		48788171267C5A7000854794 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		48788173267C5AB300854794 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		48788174267C5AB300854794 /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
 		758F2663267A3A710084CBA9 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		758F2665267A3C1B0084CBA9 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		75BBEFBB267A52DA0069DE8B /* ProductAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 				758F2665267A3C1B0084CBA9 /* ProductsViewController.swift */,
 				75BBEFBB267A52DA0069DE8B /* ProductAddViewController.swift */,
 				8BA7E01B267BAE080090982A /* ProductDetailViewController.swift */,
+				48788171267C5A7000854794 /* ChattingViewController.swift */,
+				48788173267C5AB300854794 /* DemoTableViewCell.swift */,
+				48788174267C5AB300854794 /* DemoTableViewCell.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -174,6 +183,7 @@
 			files = (
 				DD66AE9B1F7B360200B55A2E /* LaunchScreen.storyboard in Resources */,
 				DD66AE981F7B360200B55A2E /* Assets.xcassets in Resources */,
+				48788176267C5AB300854794 /* DemoTableViewCell.xib in Resources */,
 				DD66AE961F7B360200B55A2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,11 +198,13 @@
 				1B03D7A526794828000BFF85 /* MyPageViewController.swift in Sources */,
 				DD66AEA31F7B3AFB00B55A2E /* RoundButton.swift in Sources */,
 				758F2664267A3A710084CBA9 /* ItemTableViewCell.swift in Sources */,
+				48788175267C5AB300854794 /* DemoTableViewCell.swift in Sources */,
 				DD66AE911F7B360200B55A2E /* AppDelegate.swift in Sources */,
 				8BA7E01C267BAE080090982A /* ProductDetailViewController.swift in Sources */,
 				758F2666267A3C1B0084CBA9 /* ProductsViewController.swift in Sources */,
 				75BBEFBC267A52DA0069DE8B /* ProductAddViewController.swift in Sources */,
 				1B03D7A326794662000BFF85 /* SettingViewController.swift in Sources */,
+				48788172267C5A7000854794 /* ChattingViewController.swift in Sources */,
 				DD66AEA71F7B4C3D00B55A2E /* SignUpViewController.swift in Sources */,
 				DD34734B1F7B7C48008B335D /* MainViewController.swift in Sources */,
 				DD66AEAC1F7B6F5400B55A2E /* UserModel.swift in Sources */,
