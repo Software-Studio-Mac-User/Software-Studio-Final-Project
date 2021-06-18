@@ -9,7 +9,7 @@
 import UIKit
 
 class ChattingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let chatname: [String] = ["ㅁ", "ㅇ", "ㄴ"]
+    let chatname: [String] = ["유재석", "박명수", "정준하", "노홍철", "정형돈", "하하", "길", "황광희"]
         
     @IBOutlet weak var tableView: UITableView!
         
@@ -31,15 +31,12 @@ class ChattingViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DemoTableViewCell", for: indexPath) as! DemoTableViewCell
-            cell.ChattingLabel.text = chatname[indexPath.row]
         cell.ChattingLabel?.text = chatname[indexPath.row]
         cell.ChattingUser?.image = UIImage(named: "User")
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        
-        
     }
 }
 

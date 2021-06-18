@@ -12,7 +12,7 @@ class DemoTableViewCell: UITableViewCell {
 
     @IBOutlet var ChattingLabel: UILabel!
     @IBOutlet var ChattingUser: UIImageView!
-
+    @IBOutlet var button: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
